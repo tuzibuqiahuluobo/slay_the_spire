@@ -1,0 +1,17 @@
+{
+    "BaiMo": {
+        "id": "BaiMo",
+        "name": "BaiMo",
+        "name_zh": "白摸",
+        "sprite": "⭐",
+        "sprite_path": "assets/images/entities/BaiMo.png",
+        "stats": {
+            "initial_hp": 4,
+            "initial_atk": 2
+        },
+        "scaling": {
+            "hp_increase_per_summon": 2,
+            "atk_increase_per_summon": 1
+        }
+    }
+}

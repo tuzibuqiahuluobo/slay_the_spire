@@ -1,0 +1,110 @@
+[
+    {
+        "name": "JinYue",
+        "name_zh": "近月",
+        "hp": 30,
+        "sprite": "👹",
+        "sprite_path": "assets/images/entities/JinYue.png",
+        "baseDamage": 5,
+        "type": "attacker"
+    },
+    {
+        "name": "PingGuo",
+        "name_zh": "苹果",
+        "hp": 25,
+        "sprite": "🍎",
+        "sprite_path": "assets/images/entities/PingGuo.png",
+        "baseDamage": 7,
+        "type": "attacker"
+    },
+    {
+        "name": "TianZai",
+        "name_zh": "天灾",
+        "hp": 20,
+        "sprite": "🧙",
+        "sprite_path": "assets/images/entities/TianZai.png",
+        "type": "supporter",
+        "actions": [
+            {
+                "type": "heal",
+                "value": 6,
+                "weight": 0.4,
+                "desc": "治疗友军"
+            },
+            {
+                "type": "buff",
+                "value": 1,
+                "weight": 0.3,
+                "desc": "提升友军力量"
+            },
+            {
+                "type": "attack",
+                "value": 4,
+                "weight": 0.3,
+                "desc": "法术攻击"
+            }
+        ]
+    },
+    {
+        "name": "Tou",
+        "name_zh": "头",
+        "hp": 25,
+        "sprite": "💀",
+        "sprite_path": "assets/images/entities/Tou.png",
+        "type": "supporter",
+        "actions": [
+            {
+                "type": "debuff",
+                "value": 2,
+                "weight": 0.5,
+                "desc": "给予虚弱"
+            },
+            {
+                "type": "attack",
+                "value": 5,
+                "weight": 0.5,
+                "desc": "灵魂冲击"
+            }
+        ]
+    },
+    {
+        "name": "u0",
+        "name_zh": "幽灵",
+        "hp": 28,
+        "sprite": "👻",
+        "sprite_path": "assets/images/entities/u0.png",
+        "type": "supporter",
+        "actions": [
+            {
+                "type": "intangible",
+                "value": 1,
+                "weight": 0.3,
+                "desc": "进入虚化状态(免疫伤害)"
+            },
+            {
+                "type": "attack",
+                "value": 6,
+                "weight": 0.7,
+                "desc": "幽冥一击"
+            }
+        ]
+    },
+    {
+        "name": "XingGuang",
+        "name_zh": "星光",
+        "hp": 15,
+        "sprite": "🧪",
+        "sprite_path": "assets/images/entities/XingGuang.png",
+        "baseDamage": 3,
+        "type": "attacker"
+    },
+    {
+        "name": "YUxue",
+        "name_zh": "雨雪",
+        "hp": 22,
+        "sprite": "🌧️",
+        "sprite_path": "assets/images/entities/YUxue.png",
+        "baseDamage": 4,
+        "type": "attacker"
+    }
+]

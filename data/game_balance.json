@@ -1,0 +1,37 @@
+{
+    "difficulty": {
+        "enemy_scaling": {
+            "hp_scale_per_stage": 0.06,
+            "hp_linear_bonus_per_stage": 2,
+            "dmg_scale_per_stage": 0.04,
+            "default_base_damage": 6
+        }
+    },
+    "boss": {
+        "hp_multiplier": 3.0,
+        "dmg_bonus": 5,
+        "exploration_weakness_max": 0.8,
+        "min_hp": 10,
+        "min_dmg": 2,
+        "stage_modifier": 5
+    },
+    "elite": {
+        "hp_multiplier": 1.5,
+        "stage_modifier": 2
+    },
+    "common": {
+        "stage_modifier": 0
+    },
+    "player_progression": {
+        "energy_bonus_per_3_turns": 1,
+        "max_energy": 10,
+        "rage_mode_turn": 10,
+        "rage_damage_multiplier": 2.0,
+        "turn_1_hand_size": 5,
+        "base_hand_size": 5
+    },
+    "enemy_level": {
+        "level_multiplier_per_stage": 1.2,
+        "min_level": 1
+    }
+}

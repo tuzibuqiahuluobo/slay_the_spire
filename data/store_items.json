@@ -1,0 +1,38 @@
+{
+    "config": {
+        "refresh_cost": 10,
+        "max_refreshes_per_node": 1
+    },
+    "items": [
+        {
+            "id": "level_up",
+            "name_zh": "提升等级",
+            "name_en": "Level Up",
+            "description_zh": "角色等级 +1",
+            "description_en": "Increase level by 1",
+            "base_price": 50,
+            "effect_type": "level_up",
+            "effect_value": 1
+        },
+        {
+            "id": "max_hp_up",
+            "name_zh": "强身健体",
+            "name_en": "Max HP Up",
+            "description_zh": "最大生命值 +1",
+            "description_en": "Increase Max HP by 1",
+            "base_price": 20,
+            "effect_type": "max_hp_up",
+            "effect_value": 1
+        },
+        {
+            "id": "full_heal",
+            "name_zh": "恢复药水",
+            "name_en": "Full Heal",
+            "description_zh": "回复所有生命值",
+            "description_en": "Restore all HP",
+            "base_price": 100,
+            "effect_type": "full_heal",
+            "effect_value": 0
+        }
+    ]
+}

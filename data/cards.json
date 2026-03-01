@@ -1,0 +1,119 @@
+{
+    "strike": {
+        "id": "strike",
+        "name": "棒球打击",
+        "type": "attack",
+        "cost": 1,
+        "value": 8,
+        "desc": "造成 {val} 点伤害",
+        "targetType": "enemy"
+    },
+    "defend": {
+        "id": "defend",
+        "name": "蜷缩防御",
+        "type": "skill",
+        "cost": 1,
+        "value": 6,
+        "targetType": "friendly",
+        "desc": "指向一个友方增加 {val} 点护甲"
+    },
+    "bash": {
+        "id": "bash",
+        "name": "重击",
+        "type": "attack",
+        "cost": 2,
+        "value": 14,
+        "desc": "造成 {val} 点伤害",
+        "targetType": "enemy"
+    },
+    "call_star": {
+        "id": "call_star",
+        "name": "唤星",
+        "type": "skill",
+        "cost": 1,
+        "value": 0,
+        "innate": true,
+        "retain": true,
+        "targetType": "self",
+        "desc": "【固有/保留】召唤一个小星星(4HP/2ATK)。若已在场，则使其+2最大生命和+1攻击"
+    },
+    "iron_wave": {
+        "id": "iron_wave",
+        "name": "铁甲波",
+        "type": "attack",
+        "cost": 1,
+        "value": 5,
+        "block": 5,
+        "targetType": "enemy",
+        "desc": "造成 {val} 点伤害，获得 5 点护甲"
+    },
+    "body_slam": {
+        "id": "body_slam",
+        "name": "全身撞击",
+        "type": "attack",
+        "cost": 0,
+        "value": 0,
+        "targetType": "enemy",
+        "desc": "造成等同于当前护甲的伤害"
+    },
+    "shrug_it_off": {
+        "id": "shrug_it_off",
+        "name": "耸肩加压",
+        "type": "skill",
+        "cost": 1,
+        "value": 8,
+        "draw": 1,
+        "targetType": "self",
+        "desc": "获得 8 点护甲，抽 1 张牌"
+    },
+    "heavy_blade": {
+        "id": "heavy_blade",
+        "name": "重刃",
+        "type": "attack",
+        "cost": 2,
+        "value": 14,
+        "targetType": "enemy",
+        "desc": "造成 {val} 点强力伤害"
+    },
+    "pommel_strike": {
+        "id": "pommel_strike",
+        "name": "剑柄打击",
+        "type": "attack",
+        "cost": 1,
+        "value": 9,
+        "draw": 1,
+        "targetType": "enemy",
+        "desc": "造成 {val} 点伤害，抽 1 张牌"
+    },
+    "blood_letting": {
+        "id": "blood_letting",
+        "name": "放血",
+        "type": "skill",
+        "cost": 0,
+        "energyGain": 2,
+        "hpCost": 3,
+        "targetType": "self",
+        "desc": "失去 3 点生命值，获得 2 点能量"
+    },
+    "offering": {
+        "id": "offering",
+        "name": "祭品",
+        "type": "skill",
+        "cost": 0,
+        "energyGain": 2,
+        "draw": 3,
+        "hpCost": 6,
+        "targetType": "self",
+        "desc": "失去 6 点生命值，获得 2 点能量，抽 3 张牌"
+    },
+    "rampage": {
+        "id": "rampage",
+        "name": "暴怒",
+        "type": "attack",
+        "cost": 1,
+        "value": 8,
+        "grow": 4,
+        "targetType": "enemy",
+        "desc": "造成 {val} 点伤害，本场战斗每次打出后伤害增加 4"
+    }
+}

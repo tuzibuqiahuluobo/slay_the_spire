@@ -1,0 +1,51 @@
+{
+    "entities": {
+        "player": "entities/player.png",
+        "YUxue": "entities/YUxue.png",
+        "JinYue": "entities/JinYue.png",
+        "PingGuo": "entities/PingGuo.png",
+        "XingGuang": "entities/XingGuang.png",
+        "Tou": "entities/Tou.png",
+        "u0": "entities/u0.png",
+        "TianZai": "entities/TianZai.png",
+        "BaiMo": "entities/BaiMo.png"
+    },
+    "icons": {
+        "intent_attack": "icons/intent_attack.png",
+        "intent_block": "icons/intent_block.png",
+        "intent_heal": "icons/intent_heal.png",
+        "intent_buff": "icons/intent_buff.png",
+        "intent_debuff": "icons/intent_debuff.png",
+        "intent_intangible": "icons/intent_intangible.png",
+        "buff_strength": "icons/buff_strength.png",
+        "buff_weak": "icons/buff_weak.png",
+        "node_start": "icons/node_start.png",
+        "node_enemy": "icons/node_enemy.png",
+        "node_elite": "icons/node_elite.png",
+        "node_boss": "icons/node_boss.png",
+        "node_reward": "icons/node_reward.png",
+        "node_merchant": "icons/node_merchant.png",
+        "node_event": "icons/node_event.png",
+        "node_camp": "icons/node_camp.png"
+    },
+    "cards": {
+        "strike": "cards/strike.png",
+        "defend": "cards/defend.png",
+        "bash": "cards/bash.png",
+        "heavy_blade": "cards/heavy_blade.png",
+        "iron_wave": "cards/iron_wave.png",
+        "call_star": "cards/call_star.png"
+    },
+    "name_mappings": {
+        "entities": {}
+    },
+    "ui_icons": {
+        "gold": "icons/gold.png",
+        "user": "icons/user.png",
+        "map_button": "icons/map.png",
+        "setting_button": "icons/setting.png",
+        "draw_pile": "icons/card-random.png",
+        "discard_pile": "icons/card-burn.png",
+        "node_visited": "icons/already.png"
+    }
+}

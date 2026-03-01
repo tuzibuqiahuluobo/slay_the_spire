@@ -1,0 +1,20 @@
+{
+    "player": {
+        "id": "player",
+        "name": "player",
+        "name_zh": "英雄",
+        "sprite": "⭐",
+        "sprite_path": "assets/images/entities/player.png",
+        "stats": {
+            "initial_hp": 80,
+            "initial_energy": 3,
+            "max_energy_cap": 10,
+            "initial_level": 1,
+            "initial_gold": 0,
+            "initial_exp": 0
+        },
+        "progression": {
+            "exp_formula": "(level * 2) + 5"
+        }
+    }
+}
